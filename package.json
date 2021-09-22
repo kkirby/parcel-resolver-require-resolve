@@ -1,0 +1,44 @@
+{
+  "name": "@kkirbatski/parcel-resolver-require-resolve",
+  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkirby/parcel-resolver-require-resolve.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+	  "lib",
+	  "src",
+	  "LICENSE",
+	  "README.md"
+  ],
+  "description": "For parcel v2, this is a fallback resolver that uses require.resolve",
+  "main": "lib/main.js",
+  "keywords": [
+    "parcel",
+    "resolver",
+    "exports"
+  ],
+  "author": "Kyle Kirbatski",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kkirby/parcel-resolver-require-resolve/issues"
+  },
+  "homepage": "https://github.com/kkirby/parcel-resolver-require-resolve",
+  "devDependencies": {
+    "@types/node": "16.9.6",
+    "typescript": "4.4.3"
+  },
+  "dependencies": {
+    "@parcel/plugin": "2.0.0-rc.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
