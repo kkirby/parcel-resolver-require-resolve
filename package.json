@@ -1,21 +1,18 @@
 {
   "name": "@kkirbatski/parcel-resolver-require-resolve",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kkirby/parcel-resolver-require-resolve.git"
-  },
-  "scripts": {
-    "build": "tsc"
+    "url": "https://github.com/kkirby/kkirbatski-rectangle.git"
   },
   "files": [
-	  "lib",
-	  "src",
-	  "LICENSE",
-	  "README.md"
+    "lib",
+    "src",
+    "LICENSE",
+    "README.md"
   ],
   "description": "For parcel v2, this is a fallback resolver that uses require.resolve",
   "main": "lib/main.js",
@@ -26,16 +23,9 @@
   ],
   "author": "Kyle Kirbatski",
   "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/kkirby/parcel-resolver-require-resolve/issues"
-  },
-  "homepage": "https://github.com/kkirby/parcel-resolver-require-resolve",
-  "devDependencies": {
-    "@types/node": "16.9.6",
-    "typescript": "4.4.3"
-  },
   "dependencies": {
-    "@parcel/plugin": ">=2.0.0"
+    "@parcel/plugin": ">=2.0.0",
+    "import-meta-resolve": "3.0.0"
   },
   "engines": {
     "node": ">=12.0.0",
