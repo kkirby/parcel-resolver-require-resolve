@@ -1,3 +1,7 @@
 ## 2.0.0
 
 Added ability to import esmodules too. Added resolve from path when resolving commonjs modules.
+
+## 2.0.2
+
+[phpcoder2022](https://github.com/phpcoder2022) added decodeURI for paths that contain utf-8.
